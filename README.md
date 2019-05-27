@@ -2,7 +2,7 @@
 
 ```js
 // main.js
-import LinxlUI from './../packages'
+import LinxlUI from 'linxl-ui'
 
 Vue.use(LinxlUI)
 ```
