@@ -1,5 +1,12 @@
 # linxl-ui
 
+```js
+// main.js
+import LinxlUI from './../packages'
+
+Vue.use(LinxlUI)
+```
+
 ```html
 <template>
   <div class="home">
