@@ -2,13 +2,20 @@
   "name": "linxl-ui",
   "version": "0.1.0",
   "private": true,
+  "description": "基于 lottie动画 的 UI 组件库",
+  "main": "lib/linxl-ui.umd.min.js",
+  "keywords": "linxl-ui",
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name linxl-ui --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
+    "vue-lottie": "^0.2.1",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },

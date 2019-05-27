@@ -1,6 +1,3 @@
-# linxl-ui
-
-```html
 <template>
   <div class="home">
     <finger-print :width="200" :height="200" ref="fingerprint"></finger-print>
@@ -14,9 +11,8 @@
   </div>
 </template>
 
-```
+<script>
 
-```js
 export default {
   name: 'home',
   data() {
@@ -42,4 +38,4 @@ export default {
     }
   }
 }
-```
+</script>
